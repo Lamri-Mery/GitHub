@@ -43,8 +43,8 @@
     k) copier la clé ssh ( commence par ssh-rsa ......)
     l) Suivre ce tuto à partir du point 2 : Aller sur le 2e lien proposer sur l’en tête du document et sélectionner l’onglet windows avant de suivre les instructions
     1. Connecter votre mail et nom d’utilisateur en global pour être lier
-       git config --global user.email "Lamri.Mery@gmail.com"
-       git config --global user.name "Lamri Mery"
+       git config --global user.email "MON E-MAIL"
+       git config --global user.name "MON NOM"
     2. Verifier si on a git et sa version
        git –version
     3. Verifier où il est installé
@@ -84,7 +84,7 @@
        git diff
        
        On peut spécifier le fichier que l’on souhaite comparer. (HTML, CSS, JS, ...)
-	git diff NOM_DE_MON_FICHIER
+       git diff NOM_DE_MON_FICHIER
        
        Ou comparer deux branches entre elles en les séparant par deux point.
        git diff NOM_DE_MA_BRANCH..NOM_DE_MON_AUTRE_BRANCH
