@@ -50,7 +50,7 @@ git checkout MONPROJET
 
 !!!!!OU!!!!!
 
-git checkout  - b MONPROJET
+git checkout - b MONPROJET
 
 --------------------------
 
@@ -70,7 +70,7 @@ git branch -d MONPROJET
 
 git branch -D MONPROJET
 
-git rm -r --cached nom_de_element_a_supprimer
+git rm -r --cached NOMFICHIER_NOMDOSSIER
 
 ****************
 
