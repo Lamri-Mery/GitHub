@@ -70,6 +70,8 @@ git branch -d MONPROJET
 
 git branch -D MONPROJET
 
+git rm -r --cached nom_de_element_a_supprimer
+
 ****************
 
 -GitHub-

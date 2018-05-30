@@ -133,7 +133,7 @@
        
     14. merge
        permet de fusionner ma branche à mon master on se met sur la branche qu’on souhaite fusionner. Il faut être sur le master via un checkout puis merge la branche souhaité. En cas de conflit je dois éditer le texte moi même, manuellement (en faisant un commit).
-       git merge nom_de_ma_branche_ que_je_souhaite_fusionner_avec_ma_master
+       git merge nom_de_ma_branche_que_je_souhaite_fusionner_avec_ma_master
        
     15. Rebase 
        Il prend un ensemble de commits, les "recopie", et les ajoute en bout de chaîne à un autre endroit (le master par exemple). Sur ta branche, tu copies tout ton travail dans un autre depos à l’aide git rebase master, puis tu déplaces ton master sur ce depo à l’aide git rebase nom_de_ma_branche.
@@ -142,11 +142,11 @@
        
     16. remote add origin
        c’est l’ajout d’un serveur dans lequel je vais pouvoir pousser mon projet. C’est un projet vide.
-       https://github.com/Lamri-Mery/MONPROJET.git
+       https://github.com/MON_NOM/MONPROJET.git
        
     17. clone
        Récupérer un projet déjà entamer sur le serveur afin de pouvoir continuer à travailler dessus.
-       git clone https://github.com/Lamri-Mery/MONPROJET
+       git clone https://github.com/MON_NOM/MONPROJET
        
     18. remote -v
        Vérifie que j’ai bien une remote disponible.
@@ -173,9 +173,11 @@
        Rapatrier sans faire les avance de commit (utiliser pour travailler sur la branche de quelqu’un d’autre en parallèle). Il tire sans faire les merges.
        git fetch
        
-    22. à suivre
+    22. rm -r --cached
+       Supprimer fichier ou dossier dans GitHub. Après avoir remove le dossier/fichier, il faudra add le fichier modifié. Une fois fait, il ne faudra pas oublier de commit le tout en informant qu'on a supprimé tel dossier/fichier, avant de push le tout.
+       git rm -r --cached nom_de_element_a_supprimer
        
-       
+    23. à suivre 
 
 HEAD est le nom du commit sur lequel nous nous situons/travaillons actuellement.
 Hash est le nom des commit
