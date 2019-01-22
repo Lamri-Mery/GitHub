@@ -1,3 +1,4 @@
+http://alx.github.io/gitbook/3_comparer_les_commits_-_git_diff.html
 # GitHub
 
 mkdir
@@ -44,13 +45,13 @@ git log
 
 --------------------------
 
-git branch MONPROJET
+git branch NOMDEMABRANCH
 
-git checkout MONPROJET
+git checkout NOMDEMABRANCH
 
 !!!!!OU!!!!!
 
-git checkout - b MONPROJET
+git checkout - b NOMDEMABRANCH
 
 --------------------------
 
@@ -64,11 +65,11 @@ git br
 
 git checkout master
 
-git merge MONPROJET
+git merge NOMDEMABRANCH
 
-git branch -d MONPROJET
+git branch -d NOMDEMABRANCH
 
-git branch -D MONPROJET
+git branch -D NOMDEMABRANCH
 
 git rm -r --cached NOMFICHIER_NOMDOSSIER
 
@@ -90,7 +91,7 @@ git push origin gh-pages
 
 git pull origin master
 
-git pull origin MONPROJET
+git pull origin NOMDEMABRANCH
 
 git fetch
 
