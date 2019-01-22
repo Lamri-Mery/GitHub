@@ -187,6 +187,7 @@ Hash est le nom des commit
 Les commendes unix
 
 https://fr.wikipedia.org/wiki/Commandes_Unix
+http://alx.github.io/gitbook/3_comparer_les_commits_-_git_diff.html
 
 mkdir
 pwd
