@@ -1,4 +1,3 @@
-http://alx.github.io/gitbook/3_comparer_les_commits_-_git_diff.html
 # GitHub
 
 mkdir
