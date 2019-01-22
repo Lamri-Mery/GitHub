@@ -43,18 +43,21 @@ find
 # Compresser et décompresser un ficher
 tar
 
-sudo apt update                      ### permet de mettre à jour la liste des paquets disponibles, commande à taper en premier
-                                         avant toute installation pour être sûr d'avoir les mises à jour.
+### permet de mettre à jour la liste des paquets disponibles, commande à taper en premieravant toute installation pour être sûr d'avoir les mises à jour.
+sudo apt update
 
-sudo apt upgrade                     ### permet de mettre à jour les paquets déjà installés, à taper pour faire les mises à 
-                                         jour de sécurité.
+### permet de mettre à jour les paquets déjà installés, à taper pour faire les mises à jour de sécurité.
+sudo apt upgrade
 
-sudo apt install soft                ### Installe le logiciel "soft" en gérant les dépendances, donc "apt" vous 
-                                         demande peut être d'installer d'autres paquets en complément.
+### Installe le logiciel "soft" en gérant les dépendances, donc "apt" vous demande peut être d'installer d'autres paquets en complément.
+sudo apt install soft
 
-sudo apt remove soft                 ### désinstalle le paquet "soft".
+### désinstalle le paquet "soft".
+sudo apt remove soft
 
-sudo apt autoremove soft             ### désinstalle "proprement" le paquet "soft" ainsi que ses dépendances
+### désinstalle "proprement" le paquet "soft" ainsi que ses dépendances.
+sudo apt autoremove soft
 
-apt search supersoft                 ### recherche le texte "supersoft" dans les descriptions des paquets
+### recherche le texte "supersoft" dans les descriptions des paquets.
+apt search supersoft
 
